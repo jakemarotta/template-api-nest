@@ -1,0 +1,18 @@
+{
+  "restartable": "rs",
+  "watch": [
+    "package.json",
+    "nodemon.json",
+    ".babelrc",
+    "src/"
+  ],
+  "verbose": true,
+  "ignore": [".git", "node_modules/", "dist/", "*.test.js", "*.spec.js"],
+  "execMap": {
+    "ts": "node -r tsconfig-paths/register -r ts-node/register"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,ts"
+}
