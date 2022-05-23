@@ -86,8 +86,5 @@
     "webpack-cli": "^4.3.1",
     "webpack-env": "^0.8.0",
     "webpack-node-externals": "^2.5.2"
-  },
-  "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix"
   }
 }
